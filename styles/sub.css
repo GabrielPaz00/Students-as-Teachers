@@ -1,0 +1,33 @@
+.contenedor-img {
+	display: flex;
+}
+.article-img {
+	border-radius: 10px;
+	width: 200px;
+	height: 180px;
+	display: block;
+	margin:auto;
+	padding: 2px 2px 2px 2px;
+	display:block; 
+	box-shadow: 2px 0px 3px 2px #1b396a;
+}
+.asignaturas, .pdf-btn {
+	height: 40px;
+	max-width: 8rem;
+	padding: 1.25rem;
+	display: flex;
+	text-align: center;
+	justify-items: center;
+	align-items: center;
+	background-color: #9ACD30;
+	color: #fdfff0;
+	border-radius: 10px;
+	cursor: pointer;
+	border: none;
+}
+.asignaturas:hover {
+	background-color: #50a032;
+}
+.asignaturas:active {
+	background-color: green;
+}
