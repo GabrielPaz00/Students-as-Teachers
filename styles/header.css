@@ -9,6 +9,11 @@
 	padding: 0;
 	border: 0;
 }
+.logo img {
+	width: 64px;
+	height: 64px;
+	border-radius: 52%;
+}
 header {
     padding: 20px 0;
 	background-color: var(--primary);
@@ -34,11 +39,6 @@ header {
 	background-color: transparent;
 	color: var(--blanco);
 	text-shadow: 6px 4px 4px var(--guinda);
-}
-nav{
-    /*position: absolute;
-    top: 40%;
-    right: 0;*/
 }
 nav .list-items {
 	display: flex;
@@ -157,5 +157,4 @@ nav a:hover {
 		padding-bottom: 80px;
 		transition: 0.2s;
 	}
-
 }

@@ -1,33 +1,47 @@
-.contenedor-img {
-	display: flex;
+body {
+	background-color: #F3F5FC;
 }
-.article-img {
-	border-radius: 10px;
-	width: 200px;
-	height: 180px;
-	display: block;
-	margin:auto;
-	padding: 2px 2px 2px 2px;
-	display:block; 
-	box-shadow: 2px 0px 3px 2px #1b396a;
-}
-.asignaturas, .pdf-btn {
-	height: 40px;
-	max-width: 8rem;
-	padding: 1.25rem;
+.main {
 	display: flex;
-	text-align: center;
-	justify-items: center;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	color: black;
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	border-radius: 20px;
+	padding: 16px;
+	font-family: Roboto, "Open Sans", sans-serif;
+	box-sizing: border-box;
+	background-color: white;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	box-sizing: border-box;
+}
+.sect-btns {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 2rem;
+}
+.sub-btn {
+	color: white;
 	background-color: #9ACD30;
-	color: #fdfff0;
-	border-radius: 10px;
-	cursor: pointer;
+	border-radius: 8px;
+	font-size: 16px;
 	border: none;
+	padding: 12px;
+	cursor: pointer;
 }
-.asignaturas:hover {
-	background-color: #50a032;
+.sub-btn:hover {
+	background-color: #8eb930;	
 }
-.asignaturas:active {
-	background-color: green;
+.sub-btn:active {
+	background-color: #70a52a;
+}
+.cont {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
 }
