@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/forms.css">
+    <title>Inicia sesión</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu" class="checkbox">
+        <div class="conteiner" id="conteiner">
+            
+            <label for="btn-menu" class="toggle">
+                <img src="images/menu.svg" class="menu">
+                <img src="images/close.svg" class="close">
+            </label>
+            <div class="logo"><img src="images/logo.svg"></div>
+            <nav>
+                <ul class="list-items">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="signup.html">Regístrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="form" method="post" action="validar.php">
+        <fieldset class="log">
+            <h2>Correo y contraseña</h2><br/>
+            <label for="correo">Ingresa tu correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo" required><br/>
+            <label for="password">Ingresa tu contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Contraseña" maxlength="8" required>
+        </fieldset>
+        <fieldset>
+            <button id="login">Login</button>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <button id="new_account">Create a new account</button>
+        </fieldset>  
+    </form>
+</body>
+</html>
